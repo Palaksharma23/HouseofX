@@ -1,0 +1,27 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: bisque;
+  padding: 5.72px 24px;
+  margin: 27px auto;
+}
+
+.delete-button,
+.update-button {
+  width: 16%;
+  margin-left: auto;
+  padding: 10px;
+  background: red;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  margin-bottom: 8px;
+  border-radius: 28px;
+}
+
+.update-button {
+  color: black;
+  background-color: whitesmoke;
+}
